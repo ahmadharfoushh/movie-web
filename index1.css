@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family:'poppins' ;
+    src: url(Fonts/Poppins-MediumItalic.ttf);
+}
+
+*,
+*::before,
+*::after {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#loginpage{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image:url(img/netflix-background-9.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+}
+.webname h1{
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 55px;
+    font-family: 'Bebas Neue', cursive; 
+    color: red;
+    font-weight: 900;
+}
+
+.loginform{
+    position: relative;
+    top: 35px;
+    left: 35%;
+    width: 30%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.data{
+    margin: 25px;
+}
+
+.account{
+    justify-content: center;
+    text-align: center;
+}
+.loginform h2{
+    color: aliceblue;
+    padding-top: 10px;
+    margin-bottom: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.data input{
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    
+}
+.info input{
+    width: 100%;
+}
+
+.loginform button{
+    width: 100%;
+    color: white;
+    background-color: red;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border:none;
+}
+
+.frgt{
+    margin-top: 5px;
+    padding-bottom: 15px;
+    text-align: end;
+}
+
+.frgt a{
+    color: white;
+}
+
+.signin{
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.signin a{
+    color: white;
+    text-decoration: none;
+}
+
+.signin p{
+    color: aliceblue;
+    font-weight: bolder;
+    padding-right: 7px;
+}
+.checkbox label{
+    color: aliceblue;
+}
+
+#profilepage{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(img/dark-website-backgrounds-10-Odyssey-of-the-Mind.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.profilewrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.profiles {
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    margin: 0 15px;
+    display: grid;
+    height: fit-content;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    justify-items: center;
+    text-decoration: none;
+}
+
+.profile p {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive; ;
+}
+
+.profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+} 
+
+.phrase h2{
+    position: relative;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    bottom: 30px;
+    right: 20px;
+    font-family: 'poppins';
+}
+.phrase h2 span {
+    color: red;
+    font-weight: 900;
+}
+
+.addprofile{
+    position: relative;
+    width: 180px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    justify-items: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    background-color: transparent;
+    margin: 0px 15px;
+}
+
+.addprofile div {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addprofile i{
+    position: relative;
+    font-size: 80px;
+    color: white;
+}
+
+.addprofile p{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-family: 'Bebas Neue', cursive; ;
+}
+
+#mainpage{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.9) ;
+}
+
+.profilemenu{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    text-align: ;
+}
