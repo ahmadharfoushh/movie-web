@@ -73,7 +73,6 @@ body {
     padding: 15px;
     border-radius: 5px;
     outline: none;
-    
 }
 .info input{
     width: 100%;
@@ -126,7 +125,7 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
-    background-image: url(img/dark-website-backgrounds-10-Odyssey-of-the-Mind.jpg);
+    background-image: url(img/3EKMiwN.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -170,6 +169,7 @@ body {
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
+    border: black solid 5px;
 } 
 
 .phrase h2{
@@ -210,9 +210,9 @@ body {
     align-items: center;
 }
 
-.addprofile i{
+.addprofile img{
     position: relative;
-    font-size: 80px;
+    width: 120px;
     color: white;
 }
 
@@ -220,7 +220,7 @@ body {
     text-decoration: none;
     color: white;
     font-size: 35px;
-    font-family: 'Bebas Neue', cursive; ;
+    font-family: 'Bebas Neue', cursive; 
 }
 
 #mainpage{
@@ -230,9 +230,157 @@ body {
     background-color:rgba(0, 0, 0, 0.9) ;
 }
 
-.profilemenu{
+header{
     position: relative;
     display: flex;
-    justify-content: end;
-    text-align: ;
+    padding: 15px 30px;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 9;
 }
+
+header h1{
+    color: aliceblue;
+}
+    
+.profilemenu{
+    position: relative;
+    color: aquamarine;
+}
+
+.profilemenu ul{
+    position: relative;
+    list-style: none;
+}
+
+.profilemenu ul li{
+    position: relative;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: black;
+    font-size: 14px;
+    font-family: poppins;
+    cursor: pointer;
+    margin-bottom: 3px;
+    border-radius: 100px;
+}
+
+#icon1{
+    height: 40px;
+    width: 170px;
+}
+
+#icon1 img{
+    width: 30px;
+    margin-top: 4.5px;
+}
+
+#wrappermenu li{
+    position: relative;
+    background-color:red;
+    border: 1px solid black;
+    width: 170px;
+    display: none;
+}
+
+#icon1:hover>ul>li{
+    display: block;
+    transition: 0.5s;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.searchbar{
+    position: relative;
+    display: flex;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 402px;
+    cursor: pointer;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: end;    
+}
+
+.searchbar:hover input{
+    width: 400px;
+}
+
+.searchbar img{
+    height: 33px;
+    width: 33px;
+}
+
+.searchbar input{
+    color: azure;
+    width: 0;
+    outline: 0;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+    font-size: 20px;
+}
+
+.searchbar ::placeholder{
+    color: red;
+    font-size: 17px;
+}
+
+.leftmenu{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.leftmenu h1{
+    color: white;
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive; 
+    color: red;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+
+.rightmenu{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.img img{
+    position: absolute;
+    background-repeat:no-repeat ;
+    width: 100%;
+    height: 90%;
+    bottom: 100px;
+}
+
+
+.wrappertrailer{
+    position: relative;
+    z-index: 9;
+    margin-left: 30px;
+}
+
+.moviename img{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    color: aliceblue;
+}
+.trailer p{
+    
+    color: aliceblue;
+    width: 600px;
+    
+}
+
+
+
+
+
+
+
