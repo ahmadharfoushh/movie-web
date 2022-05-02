@@ -372,9 +372,10 @@ header h1{
     color: aliceblue;
 }
 .trailer p{
-    
     color: aliceblue;
     width: 600px;
+    font-family:  'Bebas Neue', cursive;
+    font-size: 23px;
     
 }
 
