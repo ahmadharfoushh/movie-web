@@ -371,17 +371,71 @@ header h1{
     height: 300px;
     color: aliceblue;
 }
+
 .trailer p{
     color: aliceblue;
     width: 600px;
-    font-family:  'Bebas Neue', cursive;
-    font-size: 23px;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.rate{
+    position: relative;
+    display: flex;
+    text-align: center;
+    bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rate h4{
+    color: aliceblue;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.rate img{
+    padding-right: 10px;
+    height: 25px;
+}
+
+.wrapperplay{
+    position: relative;
+    display: flex;
+    margin-top: 60px;
+}
+
+.playbtn{
+    display: flex;
+    text-align: center;
+    margin-right: 60px;
     
 }
 
+.playbtn button{
+    display: flex;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    background-color: red;
+    border: solid 2px white;
+    border-radius: 30px;
+    font-size: 20px;
+}
 
+.mylist{
+    display: flex;
+    text-align: center;
+}
 
-
-
+.mylist button{
+    width: 100px;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    background-color: red;
+    border: solid 2px white;
+    border-radius: 30px;
+    font-size: 20px;
+}
 
 
