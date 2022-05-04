@@ -5,62 +5,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index1.css">
+    <link rel="stylesheet" href="/index1.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
     <title>Red Zone</title>
 
 </head>
 
 <body>
+
+    <div class="overlay">
+        <div class="account_wrapper">
+            <div class="myaccount">
+                <img src="/img/cj.jpg" alt="">
+                <p>CJ</p>
+            </div>
+            <div class="close_menu">
+                <img id="close" src="/icon/cancel.png" alt="">
+            </div>
+        </div>
+        <div class="mydownloads">
+            <img src="/icon/download.png" alt="">
+            <p>My Downloads</p>
+        </div>
+        <menu>
+            <ul>
+                <li>
+                    <a href="">Thriller</a>
+                </li>
+                <li>
+                    <a href="">Romantic</a>
+                </li>
+                <li>
+                    <a href="">Action</a>
+                </li>
+                <li>
+                    <a href="">Horror</a>
+                </li>
+                <li>
+                    <a href="">Drama</a>
+                </li>
+            </ul>
+        </menu>
+    </div>
+
+    <header>
+        <div class="leftmenu">
+
+            <img id="menu_burger" src="icon/menu.png" alt="" width="30px">
+            <h1>Red Zone</h1>
+
+        </div>
+
+        <div class="rightmenu">
+
+            <div class="searchbar">
+                <input type="text" placeholder="Search...">
+                <img src="/icon/search.png" alt="">
+            </div>
+
+            <div class="profilemenu">
+                <ul>
+                    <li id="icon1"><img src="/icon/user.png" alt="">
+                        <ul id="wrappermenu">
+                            <li>Profile Settings</li>
+                            <li>Change Zone</li>
+                            <li>Log Out</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </header>
+    
     <section id="mainpage">
 
-        <header>
-            <div class="leftmenu">
-
-                <img src="icons/menu.png" alt="" width="30px">
-                <h1>Red Zone</h1>
-
-            </div>
-
-            <div class="rightmenu">
-
-                <div class="searchbar">
-                    <input type="text" placeholder="Search...">
-                    <img src="icons/search.png" alt="">
-                </div>
-
-                <div class="profilemenu">
-                    <ul>
-                        <li id="icon1"><img src="icons/user.png" alt="">
-                            <ul id="wrappermenu">
-                                <li>Profile Settings</li>
-                                <li>Change Zone</li>
-                                <li>Log Out</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-
-        </header>
-
-        <div class="preview">
             <div class="img">
-                <img src="img/AAAABbaSEabypvGMxgpuNS5ZSJLcj_kqOmd-O6K5bmiwDlh8S72thoJ8nQxPfaQa20AEH86HMKS9TyjtQ9EUqknLKGokoX8z.jpg"
-                    alt="">
+                <video id="preview_video" muted poster="/img/AAAABbaSEabypvGMxgpuNS5ZSJLcj_kqOmd-O6K5bmiwDlh8S72thoJ8nQxPfaQa20AEH86HMKS9TyjtQ9EUqknLKGokoX8z.jpg">
+                    <source src="/img/John Wick_ Chapter 2 (2017 Movie) Official Trailer – ‘Wick Goes Off’.mp4" type="">
+                </video>
             </div>
 
             <div class="wrappertrailer">
                 <div class="moviename">
-                    <img src="img/02.jpg" alt="">
+                    <img src="/img/02.png" alt="">
                 </div>
 
                 <div class="rate">
-                    <img src="img/like.png" alt="">
+                    <img src="/img/like.png" alt="">
                     <h4>2017</h4>
-                    <img src="img/16.png" alt="">
+                    <img src="/img/16.png" alt="">
                     <h4>2h 2 m</h4>
-                    <img src="img/hd.png" alt="">
+                    <img src="/img/hd.png" alt="">
                 </div>
 
                 <div class="trailer">
@@ -70,19 +108,15 @@
 
                 <div class="wrapperplay">
                     <div class="playbtn">
-                        <button><img src="icons/play-button.png" alt=""> <p>Play</p></button>
+                        <button><img src="/icon/play-button.png" alt=""> <p>Play</p></button>
                     </div>
 
                     <div class="mylist">
-                        <button><img src="icons/plus.png" alt=""><p>My list</p></button>
+                        <button><img src="/icon/plus.png" alt=""><p>My list</p></button>
                     </div>
                 </div>
                 
             </div>
-        </div>
-
-
-
 
     </section>
 
