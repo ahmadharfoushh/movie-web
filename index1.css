@@ -1,7 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @font-face {
     font-family:'poppins' ;
-    src: url(/fonts/Poppins-MediumItalic.ttf);
+    src: url(/fonts/POPPINS-REGULAR.TTF);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'poppins' ;
+    src: url(/fonts/POPPINS-SEMIBOLD.TTF);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'poppins' ;
+    src: url(/fonts/POPPINS-BOLD.TTF);
+    font-weight: 700;
+    font-style: normal;
 }
 
 *,
@@ -18,10 +35,10 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.8);
-    font-family: 'Poppins';
+    box-sizing: border-box; 
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    font-family: 'poppins';
 }
 #loginpage{
     width: 100%;
@@ -559,4 +576,43 @@ menu ul li a {
 
 #menu_burger {
     cursor: pointer;
+}
+
+.movies_section {
+    padding: 30px;
+}
+
+.section_title {
+    margin-bottom: 25px;
+}
+
+.section_title h1 {
+    color: white;
+    font-size: 28px;
+}
+
+.flex_wrapper {
+    display: flex;
+    overflow-x: auto;
+}
+
+.flex_wrapper::-webkit-scrollbar {
+    height: 5px;
+    cursor: pointer;
+}
+
+.flex_wrapper::-webkit-scrollbar-track {
+    background: #000;
+}
+
+.flex_wrapper::-webkit-scrollbar-thumb {
+background: red;
+}
+
+.flex_wrapper::-webkit-scrollbar-thumb:hover {
+background: rgb(177, 1, 1);
+}
+
+.movie_card:not(:last-child) {
+    margin-right: 15px;
 }
